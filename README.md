@@ -73,3 +73,39 @@ Note that we also hope to see you use Markdown cells to explain your data analys
 Grading criteria for the final exercise are [available on the course website](https://geo-python-site.readthedocs.io/en/latest/final-exercise/grading.html).
 
 The total number of points you can receive is 40.
+
+## Feedback
+
+Nice work, Phuong! Your notebooks was clear and easy to follow, and you did well to complete all of the coding tasks. I deducted a few points for not deleting the remaining NaN values from the `TAVG` column, and for not using inline comments with a # character, but otherwise there were few issues. The other notable thing was a lack of Markdown cells that would have made the notebook easier to read. Regardless, well done!
+
+Some more notes: 
+
+- You properly filled in the missing average temperature values, but did not drop the remaining NA values from the `TAVG` column afterwards.
+- Unfortunately, it does not appear you used any Markdown cells for documentation.
+- The blockquotes with """ are useful for multi-line comments, but it is preferable to use inline quotes with a # character for single-line comments.
+
+### Points
+
+Detailed final project grading rubric available on the couse website.
+
+| Item                         | Points |
+| ---------------------------- | ------ |
+| Reading data file            | 5      |
+| Processing input             | 3      |
+| Defining and using functions | 5      |
+| Aggregating data             | 5      |
+| Plot, data                   | 5      |
+| Plot, format                 | 5      |
+| Markdown documentation       | 0      |
+| Code comments and style      | 4      |
+| **Total**                    | 32     |
+
+## Course grade
+
+- Final exercise: 32/40
+- Weekly exercises: 53.5/60
+- Total points: 85.5/100
+
+Course grade: 4/5
+
+- Dave
